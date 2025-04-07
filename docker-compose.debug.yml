@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  transcendence:
+    image: transcendence
+    build:
+      context: .
+      dockerfile: ./Dockerfile
